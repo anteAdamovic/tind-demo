@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Button } from '@mui/material';
 import './App.css';
+import SearchFilters from './components/SearchFilters';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header className="app-header">
+        <nav>
+          <a href="#">Språk</a>
+          <a href="#">Innstillinger</a>
+          <a href="#">Om</a>
+          <a href="#">Kontakt</a>
+        </nav>
+        <div className="login-button-wrapper">
+          <Button className="login-button" variant="outlined">LOG IN</Button>
+        </div>
       </header>
+      <SearchFilters/>
     </div>
   );
 }
