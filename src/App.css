@@ -19,8 +19,8 @@ header {
 
 nav {
   display: flex;
-  flex: 2;
-  justify-content: end;
+  flex: 1;
+  justify-content: center;
 }
 
 a {
@@ -39,9 +39,8 @@ nav a:hover {
 }
 
 .login-button-wrapper {
-  display: flex;
-  flex: 1;
-  justify-content: center;
+  position: absolute;
+  right: calc(25vw - 80px);
 }
 
 .login-button {
@@ -55,3 +54,4 @@ nav a:hover {
     color: #6200EE !important;
     border-color: #6200EE !important;
 }
+

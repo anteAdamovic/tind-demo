@@ -72,6 +72,7 @@ ul > li {
     min-width: unset;
     color: #6200EE;
     border-color: #6200EE;
+    text-transform: inherit;
 }
 
 .mui-datepicker-control {
